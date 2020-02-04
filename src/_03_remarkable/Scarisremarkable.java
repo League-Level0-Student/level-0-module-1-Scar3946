@@ -4,14 +4,19 @@ package _03_remarkable;
 
 import javax.swing.JOptionPane;
 
-public class Remarkable {
+public class Scarisremarkable {
 public static void main(String[] args) {
 
-		// 1. Save something remarkable about each person in a variable.
-
+		// 1. Save something remarkable about each person in a variable
+	
+	String grumpus = "is helpful";
 		// 2. Ask the user to enter a name. Store their answer in a variable.
-
+	String input = JOptionPane.showInputDialog("Who is someone you know?");
+			grumpus = " is helpful";
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
+if(input.equals("grumpus")) {
+	 JOptionPane.showMessageDialog(null, grumpus);
+}
 
 	}
 }
